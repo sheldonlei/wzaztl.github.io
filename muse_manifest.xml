@@ -1,23 +1,23 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xingyulei.info" resolutions="1x,2x" timestamp="1516242692427">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xingyulei.info" resolutions="1x,2x" timestamp="1516244782493">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="260121358" ref="index:mizzou3d"/>
-    <file name="nomq_preview_master_a-master.css" crc="498508849" ref="index:mizzou3d"/>
-    <file name="index.css" crc="4014664934" ref="index"/>
-    <file name="nomq_index.css" crc="3996935865" ref="index"/>
-    <file name="mizzou3d.css" crc="4046966321" ref="mizzou3d"/>
+    <file name="master_a-master.css" crc="3828629618" ref="index:mizzou3d"/>
+    <file name="nomq_preview_master_a-master.css" crc="3963528343" ref="index:mizzou3d"/>
+    <file name="index.css" crc="476663229" ref="index"/>
+    <file name="nomq_index.css" crc="3762749653" ref="index"/>
+    <file name="mizzou3d.css" crc="110882986" ref="mizzou3d"/>
     <file name="nomq_mizzou3d.css" crc="420708617" ref="mizzou3d"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="museutils.js" crc="4232573551" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="museconfig.js" crc="3849126041" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="webpro.js" crc="3770351119" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="musewpdisclosure.js" crc="347705465" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="phone>index:index"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
-    <file name="require.js" crc="4234670167" ref="phone>index:phone>mizzou3d:index:mizzou3d"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:mizzou3d"/>
+    <file name="museutils.js" crc="4232573551" ref="index:mizzou3d"/>
+    <file name="whatinput.js" crc="86476730" ref="index:mizzou3d"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:mizzou3d"/>
+    <file name="webpro.js" crc="3770351119" ref="index:mizzou3d"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index:mizzou3d"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:mizzou3d"/>
+    <file name="require.js" crc="4234670167" ref="index:mizzou3d"/>
     <file name="jquery.musemenu.js" crc="38860304" ref="index:mizzou3d"/>
     <file name="form_check.php" crc="3841221102" ref="index"/>
     <file name="form_throttle.php" crc="4048049783" ref="index"/>
@@ -27,11 +27,11 @@
     <file name="jquery.museresponsive.js" crc="433634197" ref="index:mizzou3d"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="387907737" ref="phone>index"/>
-    <file name="lh.png" crc="245134159" ref="phone>index:index">
+    <file name="favicon.ico" crc="387907737" ref="index"/>
+    <file name="lh.png" crc="245134159" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="lh_2x.png" crc="4163539637" ref="phone>index:index">
+    <file name="lh_2x.png" crc="4163539637" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="mizzou3d2.png" crc="3908716652" ref="index">
@@ -58,13 +58,12 @@
     </file>
     <file name="r8-u1526-r-fr.png" crc="4034872292" ref="index"/>
     <file name="r8-u1526-r-fr_2x.png" crc="4190486947" ref="index"/>
-    <file name="dear.png" crc="455528639" ref="index">
+    <file name="dear.png" crc="4097668581" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dear_2x.png" crc="183228579" ref="index">
+    <file name="dear_2x.png" crc="4100597212" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dear-u1524-r-fr.png" crc="3940535547" ref="index"/>
     <file name="mizzou3d2-u1527-fr.png" crc="185853608" ref="index"/>
     <file name="mizzou3d2-u1527-fr_2x.png" crc="526661857" ref="index"/>
     <file name="mizzou3d2-u1527-r-fr2.png" crc="450248646" ref="index"/>
@@ -77,10 +76,6 @@
     <file name="r8-u1526-fr_2x.png" crc="3990280106" ref="index"/>
     <file name="r8-u1526-r-fr2.png" crc="179010569" ref="index"/>
     <file name="r8-u1526-r-fr_2x2.png" crc="3895166689" ref="index"/>
-    <file name="dear-u1524-fr.png" crc="3994417748" ref="index"/>
-    <file name="dear-u1524-fr_2x.png" crc="3993604069" ref="index"/>
-    <file name="dear-u1524-r-fr2.png" crc="4094272222" ref="index"/>
-    <file name="dear-u1524-r-fr_2x.png" crc="346240951" ref="index"/>
     <file name="mizzou3d2-u1527-fr2.png" crc="3771304087" ref="index"/>
     <file name="mizzou3d2-u1527-fr_2x2.png" crc="359326874" ref="index"/>
     <file name="mizzou3d2-u1527-r-fr3.png" crc="4173614489" ref="index"/>
@@ -93,23 +88,18 @@
     <file name="interview-u1521-fr_2x2.png" crc="3792630101" ref="index"/>
     <file name="interview-u1521-r-fr3.png" crc="533731136" ref="index"/>
     <file name="interview-u1521-r-fr_2x3.png" crc="3857357343" ref="index"/>
-    <file name="dear-u1524-fr2.png" crc="3956452778" ref="index"/>
-    <file name="dear-u1524-fr_2x2.png" crc="337137916" ref="index"/>
-    <file name="dear-u1524-r-fr3.png" crc="4285332154" ref="index"/>
-    <file name="dear-u1524-r-fr_2x2.png" crc="396590259" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:mizzou3d"/>
+    <file name="dear-u8157-r-fr.png" crc="189998760" ref="index"/>
+    <file name="dear-u8157-r-fr_2x.png" crc="535600861" ref="index"/>
+    <file name="dear-u8157-fr.png" crc="4031929682" ref="index"/>
+    <file name="dear-u8157-fr_2x.png" crc="3796495477" ref="index"/>
+    <file name="dear-u8157-r-fr2.png" crc="4094272222" ref="index"/>
+    <file name="dear-u8157-r-fr_2x2.png" crc="3799389307" ref="index"/>
+    <file name="dear-u8157-fr2.png" crc="441198523" ref="index"/>
+    <file name="dear-u8157-fr_2x2.png" crc="410518317" ref="index"/>
+    <file name="dear-u8157-r-fr3.png" crc="4285332154" ref="index"/>
+    <file name="dear-u8157-r-fr_2x3.png" crc="396590259" ref="index"/>
   </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="master_a-master.css" crc="224980994" ref="phone>mizzou3d:phone>index"/>
-      <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="phone>mizzou3d:phone>index"/>
-      <file name="mizzou3d.css" crc="130346496" ref="phone>mizzou3d"/>
-      <file name="nomq_mizzou3d.css" crc="3824530138" ref="phone>mizzou3d"/>
-      <file name="index.css" crc="323764755" ref="phone>index"/>
-    </folder>
-    <file name="index.html" crc="3971959754" seo="true" mt="1516240190944" redirect="true"/>
-    <file name="mizzou3d.html" crc="3791709495" seo="true" mt="1516240190944" redirect="true"/>
-  </folder>
-  <file name="index.html" crc="4218820177" seo="true" mt="1516242264848" redirect="true"/>
-  <file name="mizzou3d.html" crc="350168475" seo="true" mt="1516242264848" redirect="true"/>
+  <file name="index.html" crc="348196075" seo="true" mt="1516244760520" redirect="true"/>
+  <file name="mizzou3d.html" crc="4002151080" seo="true" mt="1516244760440" redirect="true"/>
 </manifest>
