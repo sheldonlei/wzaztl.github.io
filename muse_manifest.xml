@@ -1,30 +1,43 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xingyulei.info" resolutions="1x,2x" timestamp="1516316608208">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.xingyulei.info" resolutions="1x,2x" timestamp="1518226473338">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="497749325" ref="index:mizzou3d"/>
-    <file name="nomq_preview_master_a-master.css" crc="4211970561" ref="index:mizzou3d"/>
-    <file name="index.css" crc="4084409698" ref="index"/>
-    <file name="nomq_index.css" crc="3845039948" ref="index"/>
-    <file name="mizzou3d.css" crc="472884058" ref="mizzou3d"/>
-    <file name="nomq_mizzou3d.css" crc="3878570294" ref="mizzou3d"/>
+    <file name="master_a-master.css" crc="119916649" ref="contact:index:short-film:vfx:about:mizzou-3d:old"/>
+    <file name="nomq_preview_master_a-master.css" crc="501115060" ref="contact:index:short-film:vfx:about:mizzou-3d:old"/>
+    <file name="contact.css" crc="4203215157" ref="contact"/>
+    <file name="nomq_contact.css" crc="3783518405" ref="contact"/>
+    <file name="index.css" crc="316779956" ref="index"/>
+    <file name="nomq_index.css" crc="4040538035" ref="index"/>
+    <file name="short-film.css" crc="3767582481" ref="short-film"/>
+    <file name="nomq_short-film.css" crc="3849536479" ref="short-film"/>
+    <file name="vfx.css" crc="4045518737" ref="vfx"/>
+    <file name="nomq_vfx.css" crc="399725329" ref="vfx"/>
+    <file name="about.css" crc="4177915359" ref="about"/>
+    <file name="nomq_about.css" crc="250344026" ref="about"/>
+    <file name="mizzou-3d.css" crc="371426924" ref="mizzou-3d"/>
+    <file name="nomq_mizzou-3d.css" crc="4217917706" ref="mizzou-3d"/>
+    <file name="old.css" crc="4098096517" ref="old"/>
+    <file name="nomq_old.css" crc="213909161" ref="old"/>
+  </folder>
+  <folder name="assets">
+    <file name="xingyu-lei-resume.docx" crc="526725581" seo="true" mt="1511748354000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:mizzou3d"/>
-    <file name="museutils.js" crc="4232573551" ref="index:mizzou3d"/>
-    <file name="whatinput.js" crc="86476730" ref="index:mizzou3d"/>
-    <file name="museconfig.js" crc="3849126041" ref="index:mizzou3d"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="museutils.js" crc="4232573551" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
-    <file name="jquery.musemenu.js" crc="38860304" ref="index:mizzou3d"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:mizzou3d"/>
-    <file name="webpro.js" crc="3770351119" ref="index:mizzou3d"/>
-    <file name="form_check.php" crc="3841221102" ref="index"/>
-    <file name="form_throttle.php" crc="4048049783" ref="index"/>
-    <file name="form_process.php" crc="3899230280" ref="index"/>
-    <file name="form-u1626.php" crc="4242187879" ref="index"/>
-    <file name="musewpdisclosure.js" crc="347705465" ref="index:mizzou3d"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:mizzou3d"/>
-    <file name="jquery.museresponsive.js" crc="433634197" ref="index:mizzou3d"/>
-    <file name="require.js" crc="4234670167" ref="index:mizzou3d"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="webpro.js" crc="3770351119" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="require.js" crc="4234670167" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
+    <file name="form_check.php" crc="3841221102" ref="contact"/>
+    <file name="form_throttle.php" crc="4048049783" ref="contact"/>
+    <file name="form_process.php" crc="3899230280" ref="contact"/>
+    <file name="form-u10820.php" crc="280587375" ref="contact"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="387907737" ref="index"/>
@@ -34,27 +47,27 @@
     <file name="lh_2x.png" crc="4163539637" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mizzou3d2.png" crc="4265448621" ref="index">
+    <file name="interview.png" crc="395036628" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mizzou3d2_2x.png" crc="507169960" ref="index">
+    <file name="interview_2x.png" crc="4038344189" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mizzou3d2-u1527-r-fr.png" crc="247036701" ref="index"/>
-    <file name="interview.png" crc="3951073645" ref="index">
+    <file name="interview-u1521-r-fr.png" crc="4229941750" ref="index"/>
+    <file name="r8.png" crc="4203402603" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="interview_2x.png" crc="179608611" ref="index">
+    <file name="r8_2x.png" crc="4230640412" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="interview-u1521-r-fr.png" crc="247036701" ref="index"/>
-    <file name="r8.png" crc="10939232" ref="index">
+    <file name="r8-u1526-r-fr.png" crc="4066112114" ref="index"/>
+    <file name="mizzou3d2.png" crc="243000913" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="r8_2x.png" crc="4223571654" ref="index">
+    <file name="mizzou3d2_2x.png" crc="4244364599" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="r8-u1526-r-fr.png" crc="254846099" ref="index"/>
+    <file name="mizzou3d2-u1527-r-fr.png" crc="4277153524" ref="index"/>
     <file name="dear.png" crc="4097668581" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -63,40 +76,45 @@
     </file>
     <file name="dear-u8157-r-fr.png" crc="189998760" ref="index"/>
     <file name="dear-u8157-r-fr_2x.png" crc="535600861" ref="index"/>
-    <file name="mizzou3d2-u1527-fr.png" crc="4204971760" ref="index"/>
-    <file name="mizzou3d2-u1527-fr_2x.png" crc="94006150" ref="index"/>
-    <file name="mizzou3d2-u1527-r-fr2.png" crc="391523217" ref="index"/>
-    <file name="mizzou3d2-u1527-r-fr_2x.png" crc="4156127390" ref="index"/>
-    <file name="interview-u1521-fr.png" crc="3965072641" ref="index"/>
-    <file name="interview-u1521-fr_2x.png" crc="257429856" ref="index"/>
-    <file name="interview-u1521-r-fr2.png" crc="391523217" ref="index"/>
-    <file name="interview-u1521-r-fr_2x.png" crc="4156127390" ref="index"/>
-    <file name="r8-u1526-fr.png" crc="161558821" ref="index"/>
-    <file name="r8-u1526-fr_2x.png" crc="504805938" ref="index"/>
-    <file name="r8-u1526-r-fr2.png" crc="108426015" ref="index"/>
-    <file name="r8-u1526-r-fr_2x.png" crc="4084068953" ref="index"/>
-    <file name="dear-u8157-fr.png" crc="3915911810" ref="index"/>
-    <file name="dear-u8157-fr_2x.png" crc="3783920033" ref="index"/>
-    <file name="dear-u8157-r-fr2.png" crc="4058724774" ref="index"/>
-    <file name="dear-u8157-r-fr_2x2.png" crc="3914822630" ref="index"/>
-    <file name="mizzou3d2-u1527-fr2.png" crc="113896847" ref="index"/>
-    <file name="mizzou3d2-u1527-fr_2x2.png" crc="193992602" ref="index"/>
-    <file name="mizzou3d2-u1527-r-fr3.png" crc="491079504" ref="index"/>
-    <file name="mizzou3d2-u1527-r-fr_2x2.png" crc="4065627590" ref="index"/>
-    <file name="r8-u1526-fr2.png" crc="288104099" ref="index"/>
-    <file name="r8-u1526-fr_2x2.png" crc="4233403389" ref="index"/>
+    <file name="interview-u1521-fr.png" crc="106214568" ref="index"/>
+    <file name="interview-u1521-fr_2x.png" crc="3853864595" ref="index"/>
+    <file name="interview-u1521-r-fr2.png" crc="4264010656" ref="index"/>
+    <file name="interview-u1521-r-fr_2x.png" crc="484647993" ref="index"/>
+    <file name="r8-u1526-fr.png" crc="417855781" ref="index"/>
+    <file name="r8-u1526-fr_2x.png" crc="3820683377" ref="index"/>
+    <file name="r8-u1526-r-fr2.png" crc="3897662125" ref="index"/>
+    <file name="r8-u1526-r-fr_2x.png" crc="4163848493" ref="index"/>
+    <file name="mizzou3d2-u1527-fr.png" crc="4061411778" ref="index"/>
+    <file name="mizzou3d2-u1527-fr_2x.png" crc="224743049" ref="index"/>
+    <file name="mizzou3d2-u1527-r-fr2.png" crc="4264010656" ref="index"/>
+    <file name="mizzou3d2-u1527-r-fr_2x.png" crc="3776757089" ref="index"/>
+    <file name="dear-u8157-fr.png" crc="80651710" ref="index"/>
+    <file name="dear-u8157-fr_2x.png" crc="4117177811" ref="index"/>
+    <file name="dear-u8157-r-fr2.png" crc="4242032742" ref="index"/>
+    <file name="dear-u8157-r-fr_2x2.png" crc="302198162" ref="index"/>
+    <file name="interview-u1521-fr2.png" crc="455633848" ref="index"/>
+    <file name="interview-u1521-fr_2x2.png" crc="3891968591" ref="index"/>
+    <file name="interview-u1521-r-fr3.png" crc="4283886740" ref="index"/>
+    <file name="interview-u1521-r-fr_2x2.png" crc="467879288" ref="index"/>
+    <file name="r8-u1526-fr2.png" crc="533653743" ref="index"/>
+    <file name="r8-u1526-fr_2x2.png" crc="3888657733" ref="index"/>
     <file name="r8-u1526-r-fr3.png" crc="127336592" ref="index"/>
     <file name="r8-u1526-r-fr_2x2.png" crc="207623437" ref="index"/>
-    <file name="interview-u1521-fr2.png" crc="3838903450" ref="index"/>
-    <file name="interview-u1521-fr_2x2.png" crc="308364413" ref="index"/>
-    <file name="interview-u1521-r-fr3.png" crc="4283886740" ref="index"/>
-    <file name="interview-u1521-r-fr_2x2.png" crc="4065627590" ref="index"/>
+    <file name="mizzou3d2-u1527-fr2.png" crc="4183926044" ref="index"/>
+    <file name="mizzou3d2-u1527-fr_2x2.png" crc="459568063" ref="index"/>
+    <file name="mizzou3d2-u1527-r-fr3.png" crc="491079504" ref="index"/>
+    <file name="mizzou3d2-u1527-r-fr_2x2.png" crc="4065627590" ref="index"/>
     <file name="dear-u8157-fr2.png" crc="494320969" ref="index"/>
     <file name="dear-u8157-fr_2x2.png" crc="3822015119" ref="index"/>
     <file name="dear-u8157-r-fr3.png" crc="3783373099" ref="index"/>
     <file name="dear-u8157-r-fr_2x3.png" crc="3879279047" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:mizzou3d"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:contact:short-film:mizzou-3d:vfx:old"/>
   </folder>
-  <file name="index.html" crc="394651362" seo="true" mt="1516316600453" redirect="true"/>
-  <file name="mizzou3d.html" crc="3988042420" seo="true" mt="1516316469054" redirect="true"/>
+  <file name="index.html" crc="4124341081" seo="true" mt="1518221145425" redirect="true"/>
+  <file name="about.html" crc="516508676" seo="true" mt="1518061887565" redirect="true"/>
+  <file name="contact.html" crc="3764847654" seo="true" mt="1518061476511" redirect="true"/>
+  <file name="short-film.html" crc="4167288360" seo="true" mt="1518220950632" redirect="true"/>
+  <file name="mizzou-3d.html" crc="224509686" seo="true" mt="1518220987878" redirect="true"/>
+  <file name="vfx.html" crc="3841659754" seo="true" mt="1518220982755" redirect="true"/>
+  <file name="old.html" crc="121793385" seo="true" mt="1518220793263" redirect="true"/>
 </manifest>
