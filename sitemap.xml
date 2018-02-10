@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://xingyulei.info/index.html</loc>
-    <lastmod>2018-01-18</lastmod>
+    <loc>http://www.xingyulei.info/index.html</loc>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://xingyulei.info/mizzou3d.html</loc>
-    <lastmod>2018-01-18</lastmod>
+    <loc>http://www.xingyulei.info/short-film.html</loc>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/about.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/contact.html</loc>
+    <lastmod>2018-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/vfx.html</loc>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/mizzou-3d.html</loc>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/old.html</loc>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.info/assets/xingyu-lei-resume.docx</loc>
+    <lastmod>2017-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
