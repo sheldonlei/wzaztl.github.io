@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.xingyulei.info/index.html</loc>
-    <lastmod>2018-02-09</lastmod>
+    <loc>http://www.xingyulei.website/index.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/short-film.html</loc>
-    <lastmod>2018-02-09</lastmod>
+    <loc>http://www.xingyulei.website/contact.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/about.html</loc>
-    <lastmod>2018-02-07</lastmod>
+    <loc>http://www.xingyulei.website/rigging-animation.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/contact.html</loc>
-    <lastmod>2018-02-07</lastmod>
+    <loc>http://www.xingyulei.website/gamedevelopment.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/vfx.html</loc>
-    <lastmod>2018-02-09</lastmod>
+    <loc>http://www.xingyulei.website/about.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/mizzou-3d.html</loc>
-    <lastmod>2018-02-09</lastmod>
+    <loc>http://www.xingyulei.website/mayaprogramming.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/old.html</loc>
-    <lastmod>2018-02-09</lastmod>
+    <loc>http://www.xingyulei.website/oldworks.html</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.info/assets/xingyu-lei-resume.docx</loc>
-    <lastmod>2017-11-26</lastmod>
+    <loc>http://www.xingyulei.website/images/xingyulei.jpg</loc>
+    <lastmod>2018-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/xingyulei231x231.jpg</loc>
+    <lastmod>2018-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/xingyulei119x119.jpg</loc>
+    <lastmod>2018-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
