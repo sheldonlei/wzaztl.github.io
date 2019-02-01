@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1547506431572">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1549059083709">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="180529429" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
-    <file name="nomq_preview_master_a-master.css" crc="3967901522" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
+    <file name="master_a-master.css" crc="4242788460" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
+    <file name="nomq_preview_master_a-master.css" crc="355055219" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
     <file name="contact.css" crc="4294424133" ref="contact"/>
     <file name="nomq_contact.css" crc="360593461" ref="contact"/>
     <file name="gamedevelopment.css" crc="212773983" ref="gamedevelopment"/>
@@ -13,8 +13,8 @@
     <file name="nomq_mayaprogramming.css" crc="3957682191" ref="mayaprogramming"/>
     <file name="oldworks.css" crc="4250228617" ref="oldworks"/>
     <file name="nomq_oldworks.css" crc="457049722" ref="oldworks"/>
-    <file name="index.css" crc="524763024" ref="index"/>
-    <file name="nomq_index.css" crc="193373760" ref="index"/>
+    <file name="index.css" crc="3940280754" ref="index"/>
+    <file name="nomq_index.css" crc="4031589936" ref="index"/>
     <file name="rigging-animation.css" crc="4286497806" ref="rigging-animation"/>
     <file name="nomq_rigging-animation.css" crc="3889761852" ref="rigging-animation"/>
   </folder>
@@ -43,32 +43,32 @@
     <file name="mizzou3d2-u1521-r-fr.png" crc="91795336" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-fr.png" crc="3773372791" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-r-fr.png" crc="3809578704" ref="index"/>
-    <file name="characteranimationthumbnail.jpg" crc="230268096" ref="index"/>
-    <file name="characteranimationthumbnail-u1527-r-fr.png" crc="91795336" ref="index"/>
     <file name="dear.png" crc="4097668581" ref="index"/>
     <file name="dear-u8157-r-fr.png" crc="189998760" ref="index"/>
     <file name="mizzou3d2-u1521-fr.png" crc="4275441212" ref="index"/>
     <file name="mizzou3d2-u1521-r-fr2.png" crc="4264010656" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-fr2.png" crc="6911997" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-r-fr2.png" crc="4082957241" ref="index"/>
-    <file name="characteranimationthumbnail-u1527-fr.jpg" crc="4004814179" ref="index"/>
-    <file name="characteranimationthumbnail-u1527-r-fr2.png" crc="4264010656" ref="index"/>
     <file name="dear-u8157-fr.png" crc="3796807848" ref="index"/>
     <file name="dear-u8157-r-fr2.png" crc="4242032742" ref="index"/>
     <file name="mizzou3d2-u1521-fr2.png" crc="4113988906" ref="index"/>
     <file name="mizzou3d2-u1521-r-fr3.png" crc="491079504" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-fr3.png" crc="4073477488" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-r-fr3.png" crc="4190671892" ref="index"/>
-    <file name="characteranimationthumbnail-u1527-fr2.jpg" crc="291461490" ref="index"/>
-    <file name="characteranimationthumbnail-u1527-r-fr3.png" crc="491079504" ref="index"/>
     <file name="dear-u8157-fr2.png" crc="301010749" ref="index"/>
     <file name="dear-u8157-r-fr3.png" crc="3783373099" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="xingyulei.jpg" crc="477117650" seo="true" ref="about"/>
     <file name="xingyulei119x119.jpg" crc="3927601001" seo="true" ref="about"/>
     <file name="xingyulei229x229.jpg" crc="66861506" seo="true" ref="about"/>
+    <file name="animation.jpg" crc="455972495" ref="index"/>
+    <file name="animation-u15327-r-fr.png" crc="4277153524" ref="index"/>
+    <file name="animation-u15327-fr.jpg" crc="4065331112" ref="index"/>
+    <file name="animation-u15327-r-fr2.png" crc="4035937767" ref="index"/>
+    <file name="animation-u15327-fr2.jpg" crc="309465272" ref="index"/>
+    <file name="animation-u15327-r-fr3.png" crc="3831860945" ref="index"/>
   </folder>
-  <file name="index.html" crc="4240395574" seo="true" mt="1547506099151" redirect="true"/>
+  <file name="index.html" crc="3924524438" seo="true" mt="1549059081934" redirect="true"/>
   <file name="about.html" crc="3799559350" seo="true" mt="1546212410057" redirect="true"/>
   <file name="contact.html" crc="444145013" seo="true" mt="1546042891071" redirect="true"/>
   <file name="rigging-animation.html" crc="172819035" seo="true" mt="1546042891071" redirect="true"/>
