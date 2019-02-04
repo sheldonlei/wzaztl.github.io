@@ -1,29 +1,29 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1549121152490">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1549320653357">
   <folder name="css">
-    <file name="site_global.css" crc="530869017"/>
-    <file name="master_a-master.css" crc="4093533738" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
-    <file name="nomq_preview_master_a-master.css" crc="4111640128" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
+    <file name="site_global.css" crc="11580411"/>
+    <file name="master_a-master.css" crc="437404555" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
+    <file name="nomq_preview_master_a-master.css" crc="355055219" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation"/>
     <file name="contact.css" crc="4294424133" ref="contact"/>
     <file name="nomq_contact.css" crc="360593461" ref="contact"/>
     <file name="gamedevelopment.css" crc="212773983" ref="gamedevelopment"/>
     <file name="nomq_gamedevelopment.css" crc="157070862" ref="gamedevelopment"/>
-    <file name="about.css" crc="329940062" ref="about"/>
-    <file name="nomq_about.css" crc="18305241" ref="about"/>
-    <file name="mayaprogramming.css" crc="4050194333" ref="mayaprogramming"/>
-    <file name="nomq_mayaprogramming.css" crc="4167984024" ref="mayaprogramming"/>
+    <file name="about.css" crc="133263888" ref="about"/>
+    <file name="nomq_about.css" crc="331709596" ref="about"/>
+    <file name="mayaprogramming.css" crc="4182155441" ref="mayaprogramming"/>
+    <file name="nomq_mayaprogramming.css" crc="288629154" ref="mayaprogramming"/>
     <file name="oldworks.css" crc="4250228617" ref="oldworks"/>
     <file name="nomq_oldworks.css" crc="457049722" ref="oldworks"/>
     <file name="index.css" crc="4129260980" ref="index"/>
     <file name="nomq_index.css" crc="189559674" ref="index"/>
-    <file name="rigging-animation.css" crc="3918674984" ref="rigging-animation"/>
-    <file name="nomq_rigging-animation.css" crc="323294375" ref="rigging-animation"/>
+    <file name="rigging-animation.css" crc="36844310" ref="rigging-animation"/>
+    <file name="nomq_rigging-animation.css" crc="508968467" ref="rigging-animation"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="museutils.js" crc="163421577" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="whatinput.js" crc="86476730" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="museconfig.js" crc="168988563" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:rigging-animation"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:about"/>
     <file name="jquery.musemenu.js" crc="146495465" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="jquery.watch.js" crc="104486786" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
     <file name="webpro.js" crc="3848665353" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks"/>
@@ -37,8 +37,8 @@
     <file name="form-u10820.php" crc="311132997" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4229974674" ref="index:rigging-animation"/>
-    <file name="lh_2x.png" crc="245134159" ref="index:rigging-animation"/>
+    <file name="favicon.ico" crc="4229974674" ref="index:about"/>
+    <file name="lh_2x.png" crc="245134159" ref="index:about"/>
     <file name="mizzou3d2.png" crc="3915466532" ref="index"/>
     <file name="mizzou3d2-u1521-r-fr.png" crc="91795336" ref="index"/>
     <file name="mayaprogrammingthumnail-u1526-fr.png" crc="3773372791" ref="index"/>
@@ -75,12 +75,15 @@
     <file name="gallup.gif" crc="4000051827" seo="true" ref="rigging-animation"/>
     <file name="walk.gif" crc="70786957" seo="true" ref="rigging-animation"/>
     <file name="trot.gif" crc="3834899185" seo="true" ref="rigging-animation"/>
+    <file name="linkedin95x26.png" crc="293408371" seo="true" ref="about"/>
+    <file name="linkedin68x19.png" crc="179998396" seo="true" ref="about"/>
+    <file name="linkedin34x9.png" crc="4176366564" seo="true" ref="about"/>
   </folder>
   <file name="index.html" crc="407520074" seo="true" mt="1549068038082" redirect="true"/>
-  <file name="about.html" crc="3799559350" seo="true" mt="1546212410057" redirect="true"/>
+  <file name="about.html" crc="4152981999" seo="true" mt="1549320648820" redirect="true"/>
   <file name="contact.html" crc="444145013" seo="true" mt="1546042891071" redirect="true"/>
-  <file name="rigging-animation.html" crc="3891404842" seo="true" mt="1549121151229" redirect="true"/>
-  <file name="mayaprogramming.html" crc="25204076" seo="true" mt="1549068540761" redirect="true"/>
+  <file name="rigging-animation.html" crc="310128480" seo="true" mt="1549320649693" redirect="true"/>
+  <file name="mayaprogramming.html" crc="122309183" seo="true" mt="1549320046284" redirect="true"/>
   <file name="gamedevelopment.html" crc="3795916204" seo="true" mt="1546212632581" redirect="true"/>
   <file name="oldworks.html" crc="375479036" seo="true" mt="1546042891071" redirect="true"/>
 </manifest>
