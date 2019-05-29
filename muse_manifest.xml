@@ -1,24 +1,24 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1555899968136">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1559169410024">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="230064598" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
-    <file name="nomq_preview_master_a-master.css" crc="53037365" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
-    <file name="contact.css" crc="4175846572" ref="contact"/>
-    <file name="nomq_contact.css" crc="360593461" ref="contact"/>
-    <file name="gamedevelopment.css" crc="3874059643" ref="gamedevelopment"/>
-    <file name="nomq_gamedevelopment.css" crc="157070862" ref="gamedevelopment"/>
-    <file name="about.css" crc="3905315799" ref="about"/>
-    <file name="nomq_about.css" crc="482989543" ref="about"/>
-    <file name="mayaprogramming.css" crc="4173487078" ref="mayaprogramming"/>
-    <file name="nomq_mayaprogramming.css" crc="3974542348" ref="mayaprogramming"/>
-    <file name="oldworks.css" crc="4265042590" ref="oldworks"/>
-    <file name="nomq_oldworks.css" crc="457049722" ref="oldworks"/>
-    <file name="index.css" crc="3819584109" ref="index"/>
-    <file name="nomq_index.css" crc="4039935359" ref="index"/>
-    <file name="rigging-animation.css" crc="159649133" ref="rigging-animation"/>
-    <file name="nomq_rigging-animation.css" crc="325474411" ref="rigging-animation"/>
-    <file name="research.css" crc="3985521971" ref="research"/>
-    <file name="nomq_research.css" crc="469275875" ref="research"/>
+    <file name="master_a-master.css" crc="4226535064" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
+    <file name="nomq_preview_master_a-master.css" crc="143887462" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
+    <file name="contact.css" crc="4174019637" ref="contact"/>
+    <file name="nomq_contact.css" crc="4099023791" ref="contact"/>
+    <file name="gamedevelopment.css" crc="3805632383" ref="gamedevelopment"/>
+    <file name="nomq_gamedevelopment.css" crc="4172530743" ref="gamedevelopment"/>
+    <file name="about.css" crc="302404212" ref="about"/>
+    <file name="nomq_about.css" crc="4004403631" ref="about"/>
+    <file name="mayaprogramming.css" crc="4064649871" ref="mayaprogramming"/>
+    <file name="nomq_mayaprogramming.css" crc="143245756" ref="mayaprogramming"/>
+    <file name="oldworks.css" crc="4003161595" ref="oldworks"/>
+    <file name="nomq_oldworks.css" crc="301295929" ref="oldworks"/>
+    <file name="index.css" crc="275395665" ref="index"/>
+    <file name="nomq_index.css" crc="419052778" ref="index"/>
+    <file name="rigging-animation.css" crc="3809306288" ref="rigging-animation"/>
+    <file name="nomq_rigging-animation.css" crc="113488683" ref="rigging-animation"/>
+    <file name="research.css" crc="266299116" ref="research"/>
+    <file name="nomq_research.css" crc="3822607304" ref="research"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
@@ -76,23 +76,21 @@
     <file name="trot.gif" crc="3834899185" seo="true" ref="rigging-animation"/>
     <file name="linkedin68x19.png" crc="179998396" seo="true" ref="about"/>
     <file name="linkedin.png" crc="293408371" seo="true" ref="about"/>
-    <file name="linkedin89x25.png" crc="131426594" seo="true" ref="about"/>
     <file name="self.png" crc="3825240324" seo="true" ref="about"/>
     <file name="self236x215.png" crc="4024495330" seo="true" ref="about"/>
     <file name="self117x107.png" crc="20222918" seo="true" ref="about"/>
-    <file name="1.png" crc="4130560256" seo="true" ref="research"/>
-    <file name="2.png" crc="494665181" seo="true" ref="research"/>
-    <file name="2689x300.png" crc="265139856" seo="true" ref="research"/>
-    <file name="1689x674.png" crc="3981101603" seo="true" ref="research"/>
-    <file name="2341x149.png" crc="4217471108" seo="true" ref="research"/>
-    <file name="1341x333.png" crc="3896891940" seo="true" ref="research"/>
+    <file name="large_slack-imgscom.png" crc="3949808214" seo="true" ref="about"/>
+    <file name="youtube-logo-png-transparent-image-e1537456990695.png" crc="4230170670" seo="true" ref="about"/>
+    <file name="large_slack-imgscom61x37.png" crc="4289084209" seo="true" ref="about"/>
+    <file name="linkedin56x16.png" crc="4160053505" seo="true" ref="about"/>
+    <file name="large_slack-imgscom56x34.png" crc="4193910465" seo="true" ref="about"/>
   </folder>
-  <file name="index.html" crc="209380055" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="about.html" crc="3810786176" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="contact.html" crc="521606959" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="rigging-animation.html" crc="3768155085" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="mayaprogramming.html" crc="4164687271" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="gamedevelopment.html" crc="4239409926" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="oldworks.html" crc="502671302" seo="true" mt="1555877417199" redirect="true"/>
-  <file name="research.html" crc="4000333970" seo="true" mt="1555877502068" redirect="true"/>
+  <file name="index.html" crc="4047168276" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="about.html" crc="9589294" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="contact.html" crc="3831605612" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="rigging-animation.html" crc="458665613" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="mayaprogramming.html" crc="3821220759" seo="true" mt="1559169377834" redirect="true"/>
+  <file name="gamedevelopment.html" crc="4097221624" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="oldworks.html" crc="4110044575" seo="true" mt="1559168908094" redirect="true"/>
+  <file name="research.html" crc="4220917874" seo="true" mt="1559169409515" redirect="true"/>
 </manifest>
