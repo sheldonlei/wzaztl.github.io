@@ -1,96 +1,151 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1559269573526">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1563126623402">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="3824556674" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
-    <file name="nomq_preview_master_a-master.css" crc="255787310" ref="contact:gamedevelopment:about:mayaprogramming:oldworks:index:rigging-animation:research"/>
-    <file name="contact.css" crc="3844399578" ref="contact"/>
-    <file name="nomq_contact.css" crc="4099023791" ref="contact"/>
-    <file name="gamedevelopment.css" crc="3811692677" ref="gamedevelopment"/>
+    <file name="master_a-master.css" crc="521238026" ref="index:research:mayaprogramming:about:gamedevelopment:contact:oldworks:rigging-animation"/>
+    <file name="nomq_preview_master_a-master.css" crc="4092217149" ref="index:research:mayaprogramming:about:gamedevelopment:contact:oldworks:rigging-animation"/>
+    <file name="index.css" crc="4266592011" ref="index"/>
+    <file name="nomq_index.css" crc="372240799" ref="index"/>
+    <file name="research.css" crc="429280013" ref="research"/>
+    <file name="nomq_research.css" crc="3822607304" ref="research"/>
+    <file name="mayaprogramming.css" crc="4249085376" ref="mayaprogramming"/>
+    <file name="nomq_mayaprogramming.css" crc="4115100623" ref="mayaprogramming"/>
+    <file name="about.css" crc="3920684478" ref="about"/>
+    <file name="nomq_about.css" crc="393490792" ref="about"/>
+    <file name="gamedevelopment.css" crc="182760164" ref="gamedevelopment"/>
     <file name="nomq_gamedevelopment.css" crc="4172530743" ref="gamedevelopment"/>
-    <file name="about.css" crc="131990370" ref="about"/>
-    <file name="nomq_about.css" crc="4004403631" ref="about"/>
-    <file name="mayaprogramming.css" crc="4180852711" ref="mayaprogramming"/>
-    <file name="nomq_mayaprogramming.css" crc="143245756" ref="mayaprogramming"/>
-    <file name="oldworks.css" crc="218925085" ref="oldworks"/>
+    <file name="contact.css" crc="3854165213" ref="contact"/>
+    <file name="nomq_contact.css" crc="4099023791" ref="contact"/>
+    <file name="oldworks.css" crc="3956237039" ref="oldworks"/>
     <file name="nomq_oldworks.css" crc="301295929" ref="oldworks"/>
-    <file name="index.css" crc="40996465" ref="index"/>
-    <file name="nomq_index.css" crc="4070713493" ref="index"/>
-    <file name="rigging-animation.css" crc="3972476162" ref="rigging-animation"/>
+    <file name="rigging-animation.css" crc="38132055" ref="rigging-animation"/>
     <file name="nomq_rigging-animation.css" crc="113488683" ref="rigging-animation"/>
-    <file name="research.css" crc="3994471193" ref="research"/>
-    <file name="nomq_research.css" crc="2611899" ref="research"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="museutils.js" crc="163421577" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="museutils.js" crc="4232573551" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
     <file name="whatinput.js" crc="86476730" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="museconfig.js" crc="168988563" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
-    <file name="jquery.musemenu.js" crc="146495465" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="webpro.js" crc="3848665353" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="musewpdisclosure.js" crc="4275188064" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="webpro.js" crc="3770351119" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="require.js" crc="244322403" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
-    <file name="form_check.php" crc="158155501" ref="contact"/>
-    <file name="form_throttle.php" crc="3992970984" ref="contact"/>
-    <file name="form_process.php" crc="4078697226" ref="contact"/>
-    <file name="form-u10820.php" crc="311132997" ref="contact"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="require.js" crc="4234670167" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="form_check.php" crc="3841221102" ref="contact"/>
+    <file name="form_throttle.php" crc="4048049783" ref="contact"/>
+    <file name="form_process.php" crc="3899230280" ref="contact"/>
+    <file name="form-u10820.php" crc="3832888337" ref="contact"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="4229974674" ref="index"/>
-    <file name="lh_2x.png" crc="245134159" ref="index"/>
-    <file name="mizzou3d2.png" crc="3915466532" ref="index"/>
-    <file name="mizzou3d2-u1521-r-fr.png" crc="91795336" ref="index"/>
-    <file name="mizzou3d2-u1521-fr.png" crc="4275441212" ref="index"/>
-    <file name="mizzou3d2-u1521-r-fr2.png" crc="4264010656" ref="index"/>
-    <file name="mizzou3d2-u1521-fr2.png" crc="4113988906" ref="index"/>
-    <file name="mizzou3d2-u1521-r-fr3.png" crc="491079504" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:about:contact:rigging-animation:gamedevelopment:oldworks:mayaprogramming:research"/>
-    <file name="cowboy.gif" crc="461699154" seo="true" ref="rigging-animation"/>
-    <file name="determined.gif" crc="4041640829" seo="true" ref="rigging-animation"/>
-    <file name="skip.gif" crc="345395857" seo="true" ref="rigging-animation"/>
-    <file name="run.gif" crc="3837501118" seo="true" ref="rigging-animation"/>
-    <file name="sneak.gif" crc="483996792" seo="true" ref="rigging-animation"/>
-    <file name="gallup.gif" crc="4000051827" seo="true" ref="rigging-animation"/>
-    <file name="walk.gif" crc="70786957" seo="true" ref="rigging-animation"/>
-    <file name="trot.gif" crc="3834899185" seo="true" ref="rigging-animation"/>
-    <file name="linkedin68x19.png" crc="179998396" seo="true" ref="about"/>
-    <file name="linkedin.png" crc="293408371" seo="true" ref="about"/>
-    <file name="self.png" crc="3825240324" seo="true" ref="about"/>
-    <file name="self236x215.png" crc="4024495330" seo="true" ref="about"/>
-    <file name="self117x107.png" crc="20222918" seo="true" ref="about"/>
-    <file name="large_slack-imgscom.png" crc="3949808214" seo="true" ref="about"/>
-    <file name="youtube-logo-png-transparent-image-e1537456990695.png" crc="4230170670" seo="true" ref="about"/>
-    <file name="large_slack-imgscom61x37.png" crc="4289084209" seo="true" ref="about"/>
-    <file name="linkedin56x16.png" crc="4160053505" seo="true" ref="about"/>
-    <file name="large_slack-imgscom56x34.png" crc="4193910465" seo="true" ref="about"/>
-    <file name="prob-u1526-r-fr.png" crc="4269242106" ref="index"/>
-    <file name="reseachb-u8157-r-fr.png" crc="430172347" ref="index"/>
-    <file name="animb-u15327-r-fr.png" crc="4108100149" ref="index"/>
-    <file name="prob-u1526-fr.png" crc="159640952" ref="index"/>
-    <file name="prob-u1526-r-fr2.png" crc="3875424795" ref="index"/>
-    <file name="reseachb-u8157-fr.png" crc="4256687095" ref="index"/>
-    <file name="reseachb-u8157-r-fr2.png" crc="271658494" ref="index"/>
-    <file name="animb-u15327-fr.png" crc="523977305" ref="index"/>
-    <file name="animb-u15327-r-fr2.png" crc="232374181" ref="index"/>
-    <file name="prob-u1526-fr2.png" crc="232392737" ref="index"/>
-    <file name="prob-u1526-r-fr3.png" crc="397438141" ref="index"/>
-    <file name="reseachb-u8157-fr2.png" crc="292291334" ref="index"/>
-    <file name="reseachb-u8157-r-fr3.png" crc="4193954543" ref="index"/>
-    <file name="animb-u15327-fr2.png" crc="438460540" ref="index"/>
-    <file name="animb-u15327-r-fr3.png" crc="3829167283" ref="index"/>
-    <file name="prob-u1526-fr3.png" crc="113637645" ref="index"/>
-    <file name="reseachb-u8157-fr3.png" crc="405581588" ref="index"/>
-    <file name="animb-u15327-fr3.png" crc="3993396546" ref="index"/>
+    <file name="lh_2x.png" crc="245134159" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mizzou3d2-u1521-fr.png" crc="4275441212" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mizzou3d2-u1521-fr-u1521-r-fr.png" crc="4264010656" ref="index"/>
+    <file name="prob-u1526-fr.png" crc="159640952" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="prob-u1526-fr-u1526-r-fr.png" crc="4269242106" ref="index"/>
+    <file name="reseachb-u8157-fr.png" crc="4256687095" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="reseachb-u8157-fr-u8157-r-fr.png" crc="430172347" ref="index"/>
+    <file name="animb-u15327-fr.png" crc="523977305" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="animb-u15327-fr-u15327-r-fr.png" crc="4108100149" ref="index"/>
+    <file name="prob-u1526-fr-u1526-fr.png" crc="19102716" ref="index"/>
+    <file name="prob-u1526-fr-u1526-r-fr2.png" crc="3875424795" ref="index"/>
+    <file name="reseachb-u8157-fr-u8157-fr.png" crc="189975241" ref="index"/>
+    <file name="reseachb-u8157-fr-u8157-r-fr2.png" crc="3761823509" ref="index"/>
+    <file name="animb-u15327-fr-u15327-fr.png" crc="3901254788" ref="index"/>
+    <file name="animb-u15327-fr-u15327-r-fr2.png" crc="232374181" ref="index"/>
+    <file name="prob-u1526-fr-u1526-fr2.png" crc="4226291857" ref="index"/>
+    <file name="prob-u1526-fr-u1526-r-fr3.png" crc="397438141" ref="index"/>
+    <file name="reseachb-u8157-fr-u8157-fr2.png" crc="3939128604" ref="index"/>
+    <file name="reseachb-u8157-fr-u8157-r-fr3.png" crc="4193954543" ref="index"/>
+    <file name="animb-u15327-fr-u15327-fr2.png" crc="4086992537" ref="index"/>
+    <file name="animb-u15327-fr-u15327-r-fr3.png" crc="3829167283" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:contact:rigging-animation:mayaprogramming:gamedevelopment:oldworks:research"/>
+    <file name="self.png" crc="3825240324" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="linkedinlogo.png" crc="286357183" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="youtubelogo.png" crc="183070829" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="vimeologo.png" crc="533539732" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="self236x215.png" crc="3785540487" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="self133x122.png" crc="487406671" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="youtubelogo-crop-u17249.png" crc="3924106434" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="cowboy.gif" crc="461699154" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="determined.gif" crc="4041640829" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="skip.gif" crc="345395857" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="run.gif" crc="3837501118" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="sneak.gif" crc="483996792" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="gallup.gif" crc="4000051827" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="walk.gif" crc="70786957" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
+    <file name="trot.gif" crc="3834899185" seo="true" ref="rigging-animation">
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+      <caption webpage="rigging-animation" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3939316185" seo="true" mt="1559269559441" redirect="true"/>
-  <file name="about.html" crc="184696425" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="contact.html" crc="3782226472" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="rigging-animation.html" crc="469913089" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="mayaprogramming.html" crc="319508051" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="gamedevelopment.html" crc="4289297049" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="oldworks.html" crc="440237392" seo="true" mt="1559169702724" redirect="true"/>
-  <file name="research.html" crc="3885183475" seo="true" mt="1559269573070" redirect="true"/>
+  <file name="index.html" crc="8923843" seo="true" mt="1563126542085" redirect="true"/>
+  <file name="about.html" crc="473307323" seo="true" mt="1563126495184" redirect="true"/>
+  <file name="contact.html" crc="426247486" seo="true" mt="1563126486881" redirect="true"/>
+  <file name="rigging-animation.html" crc="37399092" seo="true" mt="1563126486881" redirect="true"/>
+  <file name="mayaprogramming.html" crc="4111215008" seo="true" mt="1563126486881" redirect="true"/>
+  <file name="gamedevelopment.html" crc="4024513437" seo="true" mt="1563126486881" redirect="true"/>
+  <file name="oldworks.html" crc="4020005955" seo="true" mt="1563126486881" redirect="true"/>
+  <file name="research.html" crc="491586927" seo="true" mt="1563126622976" redirect="true"/>
 </manifest>
