@@ -7,8 +7,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.xingyulei.website/rigging-animation.html</loc>
+    <lastmod>2019-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/cowboy.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/determined.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/skip.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/run.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/sneak.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/gallup.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/walk.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.xingyulei.website/images/trot.gif</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://www.xingyulei.website/about.html</loc>
-    <lastmod>2019-07-14</lastmod>
+    <lastmod>2019-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -40,43 +70,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/rigging-animation.html</loc>
+    <loc>http://www.xingyulei.website/gamedevelopment.html</loc>
     <lastmod>2019-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/cowboy.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/determined.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/skip.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/run.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/sneak.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/gallup.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/walk.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/trot.gif</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://www.xingyulei.website/mayaprogramming.html</loc>
-    <lastmod>2019-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/gamedevelopment.html</loc>
     <lastmod>2019-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -90,6 +90,12 @@
   <url>
     <loc>http://www.xingyulei.website/research.html</loc>
     <lastmod>2019-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/assets/xingyu_lei_resume.pdf</loc>
+    <lastmod>2019-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
