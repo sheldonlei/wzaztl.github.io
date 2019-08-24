@@ -1,101 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.xingyulei.website/index.html</loc>
-    <lastmod>2019-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/rigging-animation.html</loc>
-    <lastmod>2019-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/cowboy.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/determined.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/skip.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/run.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/sneak.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/gallup.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/walk.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/trot.gif</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/about.html</loc>
-    <lastmod>2019-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/self.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/linkedinlogo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/youtubelogo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/vimeologo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/self236x215.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/self133x122.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.xingyulei.website/images/youtubelogo-crop-u17249.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/contact.html</loc>
-    <lastmod>2019-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/gamedevelopment.html</loc>
-    <lastmod>2019-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/mayaprogramming.html</loc>
-    <lastmod>2019-07-14</lastmod>
+    <lastmod>2019-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.xingyulei.website/oldworks.html</loc>
-    <lastmod>2019-07-14</lastmod>
+    <lastmod>2019-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.xingyulei.website/research.html</loc>
-    <lastmod>2019-07-14</lastmod>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/gamedevelopment.html</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/mayaprogramming.html</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/rigging-animation.html</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/contact.html</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/about.html</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/determined.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/skip.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/self133x122.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/cowboy.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/gallup.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/walk.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/trot.gif</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/self.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/self236x215.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/vimeologo.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/youtubelogo.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/linkedinlogo.png</loc>
+    <lastmod>2019-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/run.gif</loc>
+    <lastmod>2019-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.xingyulei.website/assets/xingyu_lei_resume.pdf</loc>
-    <lastmod>2019-07-28</lastmod>
+    <lastmod>2019-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/images/sneak.gif</loc>
+    <lastmod>2019-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
