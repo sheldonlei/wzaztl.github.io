@@ -1,72 +1,129 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1573596953822">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1594070532699">
   <folder name="css">
     <file name="site_global.css" crc="11580411"/>
-    <file name="master_a-master.css" crc="4156726895" ref="research:about:contact:index:old:general:work"/>
-    <file name="nomq_preview_master_a-master.css" crc="177808079" ref="research:about:contact:index:old:general:work"/>
-    <file name="research.css" crc="225423594" ref="research"/>
-    <file name="nomq_research.css" crc="3992092371" ref="research"/>
-    <file name="about.css" crc="3971986462" ref="about"/>
-    <file name="nomq_about.css" crc="3794693537" ref="about"/>
-    <file name="contact.css" crc="261601909" ref="contact"/>
-    <file name="nomq_contact.css" crc="139155709" ref="contact"/>
-    <file name="index.css" crc="3807123959" ref="index"/>
-    <file name="nomq_index.css" crc="97728481" ref="index"/>
-    <file name="old.css" crc="50590745" ref="old"/>
-    <file name="nomq_old.css" crc="376765420" ref="old"/>
-    <file name="general.css" crc="286890075" ref="general"/>
-    <file name="nomq_general.css" crc="344837312" ref="general"/>
-    <file name="work.css" crc="3767530345" ref="work"/>
-    <file name="nomq_work.css" crc="4814009" ref="work"/>
+    <file name="research.css" crc="458043501" ref="research"/>
+    <file name="nomq_research.css" crc="410683242" ref="research"/>
+    <file name="index.css" crc="446021966" ref="index"/>
+    <file name="nomq_index.css" crc="265851066" ref="index"/>
+    <file name="master_en-master.css" crc="516866770" ref="index:toolen:pedagogical:gameen:research:thesis:abouten"/>
+    <file name="nomq_preview_master_en-master.css" crc="314829983" ref="index:toolen:pedagogical:gameen:research:thesis:abouten"/>
+    <file name="toolen.css" crc="57216145" ref="toolen"/>
+    <file name="nomq_toolen.css" crc="361783015" ref="toolen"/>
+    <file name="pedagogical.css" crc="37718448" ref="pedagogical"/>
+    <file name="nomq_pedagogical.css" crc="521241682" ref="pedagogical"/>
+    <file name="gameen.css" crc="440351863" ref="gameen"/>
+    <file name="nomq_gameen.css" crc="210846830" ref="gameen"/>
+    <file name="thesis.css" crc="3909366205" ref="thesis"/>
+    <file name="nomq_thesis.css" crc="273799350" ref="thesis"/>
+    <file name="abouten.css" crc="3827853130" ref="abouten"/>
+    <file name="nomq_abouten.css" crc="77823457" ref="abouten"/>
+    <file name="master_cn-master.css" crc="4277526722" ref="yanjiu:youxi:zhuye:gongju:guanyu"/>
+    <file name="nomq_preview_master_cn-master.css" crc="343382997" ref="yanjiu:youxi:zhuye:gongju:guanyu"/>
+    <file name="yanjiu.css" crc="360713592" ref="yanjiu"/>
+    <file name="nomq_yanjiu.css" crc="453697041" ref="yanjiu"/>
+    <file name="youxi.css" crc="307946842" ref="youxi"/>
+    <file name="nomq_youxi.css" crc="105158902" ref="youxi"/>
+    <file name="zhuye.css" crc="348626458" ref="zhuye"/>
+    <file name="nomq_zhuye.css" crc="49151487" ref="zhuye"/>
+    <file name="gongju.css" crc="3911589204" ref="gongju"/>
+    <file name="nomq_gongju.css" crc="392934991" ref="gongju"/>
+    <file name="guanyu.css" crc="3808517063" ref="guanyu"/>
+    <file name="nomq_guanyu.css" crc="4070904681" ref="guanyu"/>
   </folder>
   <folder name="assets">
     <file name="xingyu_lei_resume.pdf" crc="3882425090" seo="true" mt="1564377082000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:research:general:old:work"/>
-    <file name="museutils.js" crc="163421577" ref="index:about:contact:research:general:old:work"/>
-    <file name="whatinput.js" crc="86476730" ref="index:about:contact:research:general:old:work"/>
-    <file name="museconfig.js" crc="168988563" ref="index:about:contact:research:general:old:work"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
-    <file name="jquery.musemenu.js" crc="146495465" ref="index:about:contact:research:general:old:work"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:about:contact:research:general:old:work"/>
-    <file name="webpro.js" crc="3848665353" ref="index:about:contact:research:general:old:work"/>
-    <file name="musewpdisclosure.js" crc="4275188064" ref="index:about:contact:research:general:old:work"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:about:contact:research:general:old:work"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:about:contact:research:general:old:work"/>
-    <file name="require.js" crc="244322403" ref="index:about:contact:research:general:old:work"/>
-    <file name="form_check.php" crc="158155501" ref="contact"/>
-    <file name="form_throttle.php" crc="3992970984" ref="contact"/>
-    <file name="form_process.php" crc="4078697226" ref="contact"/>
-    <file name="form-u10820.php" crc="311132997" ref="contact"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="museutils.js" crc="163421577" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="whatinput.js" crc="86476730" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="museconfig.js" crc="168988563" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:abouten:toolen:research:gongju:yanjiu:guanyu:zhuye"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="webpro.js" crc="3848665353" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="musewpdisclosure.js" crc="4275188064" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="require.js" crc="244322403" ref="index:research:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="4229974674" ref="index"/>
-    <file name="lh_2x.png" crc="245134159" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="about:contact:research:general:old:work"/>
-    <file name="self.png" crc="3825240324" seo="true" ref="about"/>
-    <file name="linkedinlogo.png" crc="3934952835" seo="true" ref="about"/>
-    <file name="youtubelogo.png" crc="4153986326" seo="true" ref="about"/>
-    <file name="vimeologo.png" crc="3802507794" seo="true" ref="about"/>
-    <file name="self133x122.png" crc="487406671" seo="true" ref="about"/>
-    <file name="youtubelogo-crop-u17249.png" crc="6764480" ref="about"/>
-    <file name="determined.gif" crc="4041640829" seo="true" ref="general"/>
-    <file name="skip.gif" crc="345395857" seo="true" ref="general"/>
-    <file name="sneak.gif" crc="483996792" seo="true" ref="general"/>
-    <file name="walk.gif" crc="70786957" seo="true" ref="general"/>
-    <file name="trot.gif" crc="3834899185" seo="true" ref="general"/>
-    <file name="self170x155.png" crc="434137128" seo="true" ref="about"/>
-    <file name="still.jpg" crc="3915133406" seo="true" ref="general"/>
-    <file name="mizzou.jpg" crc="477060697" seo="true" ref="general"/>
-    <file name="mocap.gif" crc="10422398" seo="true" ref="work"/>
-    <file name="converter.gif" crc="4051566450" seo="true" ref="work"/>
-    <file name="gear.gif" crc="4159026057" seo="true" ref="work"/>
-    <file name="deformer.gif" crc="4157394346" seo="true" ref="work"/>
+    <file name="lh_2x.png" crc="245134159" ref="index:gongju"/>
+    <file name="blank.gif" crc="4208392903" ref="research:index:abouten:gameen:toolen:pedagogical:thesis:gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="self.png" crc="3825240324" seo="true" ref="abouten:guanyu"/>
+    <file name="self133x122.png" crc="487406671" seo="true" ref="abouten"/>
+    <file name="ab.jpg" crc="4190791748" ref="index:zhuye"/>
+    <file name="ab-roll.jpg" crc="4202222374" ref="index:zhuye"/>
+    <file name="re.jpg" crc="66951628" ref="index:zhuye"/>
+    <file name="re-roll.jpg" crc="257643381" ref="index:zhuye"/>
+    <file name="tr.jpg" crc="4036088566" ref="index:zhuye"/>
+    <file name="tr-roll.jpg" crc="141468632" ref="index:zhuye"/>
+    <file name="gd.jpg" crc="3773739675" ref="index:zhuye"/>
+    <file name="gd-roll.jpg" crc="19425614" ref="index:zhuye"/>
+    <file name="ab-u27768-fr.jpg" crc="167241082" ref="index:zhuye"/>
+    <file name="ab-roll-u27768-r-fr.jpg" crc="296578592" ref="index:zhuye"/>
+    <file name="re-u27756-fr.jpg" crc="4156121209" ref="index:zhuye"/>
+    <file name="re-roll-u27756-r-fr.jpg" crc="3863983438" ref="index:zhuye"/>
+    <file name="icons8-youtube-squared-256.png" crc="3914502080" ref="abouten:guanyu"/>
+    <file name="icons8-linkedin-240.png" crc="353092424" ref="abouten:guanyu"/>
+    <file name="icons8-vimeo-squared-256.png" crc="147211779" ref="abouten:guanyu"/>
+    <file name="icons8-github-squared-256.png" crc="446587481" ref="abouten:guanyu"/>
+    <file name="resume.png" crc="466935923" ref="abouten:guanyu"/>
+    <file name="icons8-download-resume-100.png" crc="171885543" ref="abouten:guanyu"/>
+    <file name="self149x135.png" crc="4157152611" seo="true" ref="abouten"/>
+    <file name="icons8-linkedin-240-u29654-fr.png" crc="10510712" ref="abouten:guanyu"/>
+    <file name="icons8-linkedin-240-u29654-fr2.png" crc="118759568" ref="abouten:guanyu"/>
+    <file name="icons8-download-resume-100-u29812-fr.png" crc="85285603" ref="abouten:guanyu"/>
+    <file name="auto-mod.jpg" crc="3934728657" ref="toolen:gongju"/>
+    <file name="auto-biped.jpg" crc="58177777" ref="toolen:gongju"/>
+    <file name="auto-quad.jpg" crc="3893451946" ref="toolen:gongju"/>
+    <file name="retarget.jpg" crc="13640395" ref="toolen:gongju"/>
+    <file name="compare.jpg" crc="3838994551" ref="toolen:gongju"/>
+    <file name="scene.jpg" crc="502564308" ref="toolen:gongju"/>
+    <file name="poker.jpg" crc="536088054" ref="toolen:gongju"/>
+    <file name="auto-mod-u29111-fr.jpg" crc="4226089807" ref="toolen:gongju"/>
+    <file name="auto-biped-u29078-fr.jpg" crc="4169940919" ref="toolen:gongju"/>
+    <file name="auto-quad-u29100-fr.jpg" crc="500848936" ref="toolen:gongju"/>
+    <file name="retarget-u29158-fr.jpg" crc="4117352676" ref="toolen:gongju"/>
+    <file name="compare-u29156-fr.jpg" crc="321049982" ref="toolen:gongju"/>
+    <file name="scene-u29154-fr.jpg" crc="342071340" ref="toolen:gongju"/>
+    <file name="poker-u29233-fr.jpg" crc="3858030196" ref="toolen:gongju"/>
+    <file name="auto-biped-u29078-fr2.jpg" crc="4202828995" ref="toolen:gongju"/>
+    <file name="auto-quad-u29100-fr2.jpg" crc="3828376309" ref="toolen:gongju"/>
+    <file name="auto-mod-u29111-fr2.jpg" crc="190761931" ref="toolen:gongju"/>
+    <file name="scene-u29154-fr2.jpg" crc="31726030" ref="toolen:gongju"/>
+    <file name="compare-u29156-fr2.jpg" crc="249939691" ref="toolen:gongju"/>
+    <file name="retarget-u29158-fr2.jpg" crc="129306243" ref="toolen:gongju"/>
+    <file name="poker-u29233-fr2.jpg" crc="426043974" ref="toolen:gongju"/>
+    <file name="icons8-paint-tool-sai-512.png" crc="393824758" ref="index:zhuye"/>
+    <file name="icons8-dev-512.png" crc="3792229763" ref="index:zhuye"/>
+    <file name="icons8-toolbox-512.png" crc="3940797419" ref="index:zhuye"/>
+    <file name="icons8-unity-5-512.png" crc="3823252743" ref="index:zhuye"/>
+    <file name="icons8-dev-512-u31046-fr.png" crc="4116973501" ref="index:zhuye"/>
+    <file name="icons8-paint-tool-sai-512-u31052-fr.png" crc="4131679478" ref="index:zhuye"/>
+    <file name="icons8-toolbox-512-u31018-fr.png" crc="437925978" ref="index:zhuye"/>
+    <file name="icons8-unity-5-512-u31058-fr.png" crc="99575148" ref="index:zhuye"/>
+    <file name="icons8-toolbox-512-u31018-fr2.png" crc="4072202393" ref="index:zhuye"/>
+    <file name="icons8-dev-512-u31046-fr2.png" crc="4172054973" ref="index:zhuye"/>
+    <file name="icons8-paint-tool-sai-512-u31052-fr2.png" crc="493833997" ref="index:zhuye"/>
+    <file name="icons8-unity-5-512-u31058-fr2.png" crc="142317426" ref="index:zhuye"/>
+    <file name="peda.png" crc="380369608" ref="research:yanjiu"/>
+    <file name="thesis.png" crc="3778511611" ref="research:yanjiu"/>
+    <file name="icons8-china-96-u31492.png" crc="3900647805" ref="gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="icons8-china-96-u31492-r.png" crc="170969316" ref="gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="icons8-usa-96-u31493.png" crc="262888820" ref="gongju:youxi:yanjiu:guanyu:zhuye"/>
+    <file name="icons8-usa-96-u31493-r.png" crc="4191802412" ref="gongju:youxi:yanjiu:guanyu:zhuye"/>
   </folder>
-  <file name="index.html" crc="4016544352" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="about.html" crc="492324372" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="contact.html" crc="228461107" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="research.html" crc="3854597539" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="general.html" crc="138890738" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="old.html" crc="33838696" seo="true" mt="1573596931823" redirect="true"/>
-  <file name="work.html" crc="3957492027" seo="true" mt="1573596951215" redirect="true"/>
+  <file name="index.html" crc="4065287451" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="research.html" crc="70420094" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="abouten.html" crc="269421333" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="gameen.html" crc="4191184604" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="toolen.html" crc="4125018807" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="pedagogical.html" crc="525227459" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="thesis.html" crc="4171967045" seo="true" mt="1594070513733" redirect="true"/>
+  <file name="gongju.html" crc="209046654" seo="true" mt="1594070396918" redirect="true"/>
+  <file name="youxi.html" crc="162653806" seo="true" mt="1594070396918" redirect="true"/>
+  <file name="yanjiu.html" crc="4176814626" seo="true" mt="1594070396918" redirect="true"/>
+  <file name="guanyu.html" crc="503890938" seo="true" mt="1594070457378" redirect="true"/>
+  <file name="zhuye.html" crc="449004280" seo="true" mt="1594070396918" redirect="true"/>
 </manifest>
