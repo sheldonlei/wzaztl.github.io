@@ -7,37 +7,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/toolen.html</loc>
-    <lastmod>2020-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/pedagogical.html</loc>
-    <lastmod>2020-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/thesis.html</loc>
-    <lastmod>2020-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/research.html</loc>
-    <lastmod>2020-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/abouten.html</loc>
-    <lastmod>2020-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/gameen.html</loc>
+    <loc>http://www.xingyulei.website/gongju.html</loc>
     <lastmod>2020-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -49,7 +19,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/gongju.html</loc>
+    <loc>http://www.xingyulei.website/yanjiu.html</loc>
+    <lastmod>2020-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/research.html</loc>
+    <lastmod>2020-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/pedagogical.html</loc>
+    <lastmod>2020-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/thesis.html</loc>
     <lastmod>2020-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -67,7 +55,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/yanjiu.html</loc>
+    <loc>http://www.xingyulei.website/tool.html</loc>
+    <lastmod>2020-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/game.html</loc>
+    <lastmod>2020-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/about.html</loc>
     <lastmod>2020-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

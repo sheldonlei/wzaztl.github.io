@@ -11,19 +11,19 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "gongju.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "gongju.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=4229974674"/>
   <title>工具绑定</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=11580411"/>
-  <link rel="stylesheet" type="text/css" href="css/master_cn-master.css?crc=4226805193"/>
-  <link rel="stylesheet" type="text/css" href="css/gongju.css?crc=367292605" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_cn-master.css?crc=4109512477"/>
+  <link rel="stylesheet" type="text/css" href="css/gongju.css?crc=4164239312" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_cn-master.css?crc=3905101076"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_gongju.css?crc=460253479" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_gongju.css?crc=332440712" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -59,7 +59,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         </div>
         <div class="SubMenu MenuLevel1 clearfix" id="u30288"><!-- vertical box -->
          <ul class="SubMenuView clearfix colelem" id="u30289"><!-- vertical box -->
-          <li class="MenuItemContainer clearfix colelem" id="u30304"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30307"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30310-4"><!-- content --><p>工具+绑定</p></div></div></li>
+          <li class="MenuItemContainer clearfix colelem" id="u30304"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u30307" href="gongju.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30310-4"><!-- content --><p>工具+绑定</p></div></a></li>
           <li class="MenuItemContainer clearfix colelem" id="u30290"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30293" href="youxi.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30295-4"><!-- content --><p>游戏开发</p></div></a></li>
           <li class="MenuItemContainer clearfix colelem" id="u30297"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30298" href="yanjiu.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30301-4"><!-- content --><p>研究论文</p></div></a></li>
          </ul>
@@ -119,8 +119,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <p id="u39319-2">扑克自动绑定</p>
       </div>
      </div>
-     <div class="clearfix colelem" id="u30311-4"><!-- content -->
-      <p>保留所有权利 © 2020</p>
+     <div class="browser_width colelem" id="u30311-4-bw">
+      <div class="clearfix" id="u30311-4"><!-- content -->
+       <p>保留所有权利 © 2020</p>
+      </div>
      </div>
     </div>
    </div>
@@ -138,7 +140,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <a class="nonblock nontext" id="u30265" href="zhuye.html"><!-- simple frame --></a>
      <ul class="AccordionWidget clearfix" id="accordionu30257"><!-- vertical box -->
-      <li class="AccordionPanel clearfix colelem" id="u30258"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u30264-4"><!-- content --><p id="u30264-2">&nbsp; =</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u30259"><!-- column --><a class="nonblock nontext clearfix colelem" id="u38483-4" href="zhuye.html"><!-- content --><p>主页</p></a><a class="nonblock nontext clearfix colelem" id="u38479-4" href="toolen.html"><!-- content --><p>工具绑定</p></a><a class="nonblock nontext clearfix colelem" id="u38480-4" href="gameen.html"><!-- content --><p>游戏开发</p></a><a class="nonblock nontext clearfix colelem" id="u38482-4" href="research.html"><!-- content --><p>研究论文</p></a><a class="nonblock nontext clearfix colelem" id="u38481-4" href="abouten.html"><!-- content --><p>关于我</p></a></div></li>
+      <li class="AccordionPanel clearfix colelem" id="u30258"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u30264-4"><!-- content --><p id="u30264-2">&nbsp; =</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u30259"><!-- column --><a class="nonblock nontext clearfix colelem" id="u38483-4" href="zhuye.html"><!-- content --><p>主页</p></a><a class="nonblock nontext clearfix colelem" id="u38479-4" href="tool.html"><!-- content --><p>工具绑定</p></a><a class="nonblock nontext clearfix colelem" id="u38480-4" href="game.html"><!-- content --><p>游戏开发</p></a><a class="nonblock nontext clearfix colelem" id="u38482-4" href="research.html"><!-- content --><p>研究论文</p></a><a class="nonblock nontext clearfix colelem" id="u38481-4" href="about.html"><!-- content --><p>关于我</p></a></div></li>
      </ul>
      <div class="clearfix" id="u38384-8"><!-- content -->
       <p><a class="nonblock" href="index.html">EN</a> | <a class="nonblock" href="zhuye.html">CN</a></p>
@@ -160,9 +162,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="nonblock nontext museBGSize shadow grpelem placeholder" data-placeholder-for="u39324_content"><!-- placeholder node --></span>
      <span class="clearfix grpelem placeholder" data-placeholder-for="u39326-4_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix pinned-colelem" id="u38505-4"><!-- content -->
-     <p>保留所有权利 © 2020</p>
-    </div>
     <div class="clearfix colelem" id="pu39318"><!-- group -->
      <span class="nonblock nontext museBGSize shadow grpelem placeholder" data-placeholder-for="u39318_content"><!-- placeholder node --></span>
      <span class="clearfix grpelem placeholder" data-placeholder-for="u39328-4_content"><!-- placeholder node --></span>
@@ -179,6 +178,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="nonblock nontext museBGSize shadow grpelem placeholder" data-placeholder-for="u39327_content"><!-- placeholder node --></span>
      <span class="clearfix grpelem placeholder" data-placeholder-for="u39319-4_content"><!-- placeholder node --></span>
     </div>
+    <div class="clearfix colelem" id="u38505-4"><!-- content -->
+     <p>保留所有权利 © 2020</p>
+    </div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -187,10 +189,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","webpro","musewpdisclosure","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpdisclosure","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#accordionu30257', ['#bp_420'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu30257 */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
