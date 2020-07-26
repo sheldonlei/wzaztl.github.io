@@ -7,24 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/zhuye.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "zhuye.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "jquery.musemenu.js", "zhuye.css"], "outOfDate":[]};
 </script>
   
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://www.xingyulei.website/phone/zhuye.html"/>
   <link rel="shortcut icon" href="images/favicon.ico?crc=4229974674"/>
   <title>主页</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=11580411"/>
-  <link rel="stylesheet" type="text/css" href="css/master_cn-master.css?crc=4109512477"/>
-  <link rel="stylesheet" type="text/css" href="css/zhuye.css?crc=4099976635" id="pagesheet"/>
-  <!-- IE-only CSS -->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_cn-master.css?crc=3905101076"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_zhuye.css?crc=4063124921" id="nomq_pagesheet"/>
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=530869017"/>
+  <link rel="stylesheet" type="text/css" href="css/master_cn-master.css?crc=4168206145"/>
+  <link rel="stylesheet" type="text/css" href="css/zhuye.css?crc=145478757" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -43,125 +44,80 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="421"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- group -->
-    <div class="clearfix grpelem" id="pu30312"><!-- group -->
-     <div class="browser_width shared_content" id="u30312-bw" data-content-guid="u30312-bw_content">
-      <div id="u30312"><!-- simple frame --></div>
-     </div>
-     <a class="nonblock nontext MuseLinkActive" id="u30335" href="zhuye.html"><!-- simple frame --></a>
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu30312"><!-- group -->
+    <div class="browser_width" id="u30312-bw">
+     <div id="u30312"><!-- simple frame --></div>
     </div>
-    <div class="browser_width grpelem" id="u30311-4-bw">
-     <div class="clearfix" id="u30311-4"><!-- content -->
-      <p>保留所有权利 © 2020</p>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu31160"><!-- column -->
-     <div class="size_fixed colelem shared_content" id="u31160" data-content-guid="u31160_content"><!-- custom html -->
-      
-    <iframe class="actAsDiv" style="width:100%;height:100%;" src="//player.vimeo.com/video/372743520?title=1&amp;byline=0&amp;portrait=0&amp;color=FFFFFF&amp;autoplay=0&amp;loop=0&amp;wmode=transparent" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-     </div>
-     <div class="pointer_cursor museBGSize clearfix colelem" id="u31157"><!-- column -->
-      <a class="block shared_content" href="guanyu.html" data-content-guid="u31157_0_content"><!-- Block link tag --></a>
-      <a class="nonblock nontext museBGSize colelem" id="u31162" href="guanyu.html"><!-- simple frame --></a>
-      <a class="nonblock nontext clearfix colelem shared_content" id="u31156-4" href="guanyu.html" data-content-guid="u31156-4_content"><!-- content --><p>关于我</p></a>
-     </div>
-    </div>
-    <a class="nonblock nontext MuseLinkActive clearfix" id="u30267-4" href="zhuye.html"><!-- content --><p>雷星雨</p></a>
-    <div class="pointer_cursor museBGSize clearfix grpelem" id="u31158"><!-- column -->
-     <a class="block shared_content" href="yanjiu.html" data-content-guid="u31158_0_content"><!-- Block link tag --></a>
-     <a class="nonblock nontext museBGSize colelem" id="u31168" href="yanjiu.html"><!-- simple frame --></a>
-     <a class="nonblock nontext clearfix colelem shared_content" id="u31159-4" href="yanjiu.html" data-content-guid="u31159-4_content"><!-- content --><p>论文研究</p></a>
-    </div>
-    <nav class="MenuBar clearfix" id="menuu30268"><!-- horizontal box -->
-     <div class="MenuItemContainer clearfix grpelem" id="u30276"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u30277" href="zhuye.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30280-4"><!-- content --><p>主页</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u30283"><!-- vertical box -->
-      <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u30284"><!-- horizontal box -->
-       <div class="MenuItemLabel NoWrap clearfix grpelem" id="u30285-4"><!-- content -->
-        <p>作品</p>
-       </div>
-      </div>
-      <div class="SubMenu MenuLevel1 clearfix" id="u30288"><!-- vertical box -->
-       <ul class="SubMenuView clearfix colelem" id="u30289"><!-- vertical box -->
-        <li class="MenuItemContainer clearfix colelem" id="u30304"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30307" href="gongju.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30310-4"><!-- content --><p>工具+绑定</p></div></a></li>
-        <li class="MenuItemContainer clearfix colelem" id="u30290"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30293" href="youxi.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30295-4"><!-- content --><p>游戏开发</p></div></a></li>
-        <li class="MenuItemContainer clearfix colelem" id="u30297"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30298" href="yanjiu.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30301-4"><!-- content --><p>研究论文</p></div></a></li>
-       </ul>
-      </div>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u30269"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u30270" href="guanyu.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30272-4"><!-- content --><p>关于我</p></div></a>
-     </div>
-    </nav>
-    <div class="clearfix grpelem" id="pu31166"><!-- column -->
-     <div class="pointer_cursor clearfix colelem" id="u31166"><!-- column -->
-      <a class="block shared_content" href="gongju.html" data-content-guid="u31166_0_content"><!-- Block link tag --></a>
-      <a class="nonblock nontext museBGSize colelem" id="u31164" href="gongju.html"><!-- simple frame --></a>
-      <a class="nonblock nontext clearfix colelem shared_content" id="u31161-4" href="gongju.html" data-content-guid="u31161-4_content"><!-- content --><p>工具 + 绑定</p></a>
-     </div>
-     <div class="pointer_cursor clearfix colelem" id="u31167"><!-- column -->
-      <a class="block shared_content" href="youxi.html" data-content-guid="u31167_0_content"><!-- Block link tag --></a>
-      <a class="nonblock nontext museBGSize colelem" id="u31163" href="youxi.html"><!-- simple frame --></a>
-      <a class="nonblock nontext clearfix colelem shared_content" id="u31165-4" href="youxi.html" data-content-guid="u31165-4_content"><!-- content --><p>游戏开发</p></a>
-     </div>
-    </div>
-    <a class="nonblock nontext MuseLinkActive" id="u31492" href="zhuye.html"><!-- state-based BG images --></a>
-    <a class="nonblock nontext" id="u31493" href="index.html"><!-- state-based BG images --></a>
+    <a class="nonblock nontext MuseLinkActive" id="u30335" href="zhuye.html"><!-- simple frame --></a>
    </div>
-   <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/ab-roll.jpg?crc=4238443692" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/re-roll.jpg?crc=30173910" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/tr-roll.jpg?crc=141468632" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/gd-roll.jpg?crc=19425614" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/icons8-china-96-u31492-r.png?crc=170969316" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/icons8-usa-96-u31493-r.png?crc=4191802412" alt="" src="images/blank.gif?crc=4208392903"/>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_420" data-max-width="420"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="clearfix colelem temp_no_id" data-orig-id="pu30312"><!-- group -->
-     <span class="browser_width placeholder" data-placeholder-for="u30312-bw_content"><!-- placeholder node --></span>
-     <div class="browser_width" id="u30266-bw">
-      <div id="u30266"><!-- simple frame --></div>
-     </div>
-     <a class="nonblock nontext MuseLinkActive" id="u30265" href="zhuye.html"><!-- simple frame --></a>
-     <ul class="AccordionWidget clearfix" id="accordionu30257"><!-- vertical box -->
-      <li class="AccordionPanel clearfix colelem" id="u30258"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u30264-4"><!-- content --><p id="u30264-2">&nbsp; =</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u30259"><!-- column --><a class="nonblock nontext MuseLinkActive clearfix colelem" id="u38483-4" href="zhuye.html"><!-- content --><p>主页</p></a><a class="nonblock nontext clearfix colelem" id="u38479-4" href="tool.html"><!-- content --><p>工具绑定</p></a><a class="nonblock nontext clearfix colelem" id="u38480-4" href="game.html"><!-- content --><p>游戏开发</p></a><a class="nonblock nontext clearfix colelem" id="u38482-4" href="research.html"><!-- content --><p>研究论文</p></a><a class="nonblock nontext clearfix colelem" id="u38481-4" href="about.html"><!-- content --><p>关于我</p></a></div></li>
-     </ul>
-     <div class="clearfix" id="u38384-8"><!-- content -->
-      <p><a class="nonblock" href="index.html">EN</a> | <a class="nonblock" href="zhuye.html">CN</a></p>
-     </div>
-    </div>
-    <span class="size_fixed colelem placeholder" data-placeholder-for="u31160_content"><!-- placeholder node --></span>
-    <div class="pointer_cursor clearfix colelem temp_no_id" data-orig-id="u31166"><!-- group -->
-     <span class="block placeholder" data-placeholder-for="u31166_0_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u31161-4_content"><!-- placeholder node --></span>
-    </div>
-    <div class="pointer_cursor clearfix colelem temp_no_id" data-orig-id="u31167"><!-- group -->
-     <span class="block placeholder" data-placeholder-for="u31167_0_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u31165-4_content"><!-- placeholder node --></span>
-    </div>
-    <div class="pointer_cursor museBGSize clearfix colelem temp_no_id" data-orig-id="u31158"><!-- group -->
-     <span class="block placeholder" data-placeholder-for="u31158_0_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u31159-4_content"><!-- placeholder node --></span>
-    </div>
-    <div class="pointer_cursor museBGSize clearfix colelem temp_no_id" data-orig-id="u31157"><!-- group -->
-     <span class="block placeholder" data-placeholder-for="u31157_0_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u31156-4_content"><!-- placeholder node --></span>
-    </div>
-    <div class="clearfix colelem" id="u38505-4"><!-- content -->
+   <div class="browser_width grpelem" id="u30311-4-bw">
+    <div class="clearfix" id="u30311-4"><!-- content -->
      <p>保留所有权利 © 2020</p>
     </div>
    </div>
-   <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/tr-roll.jpg?crc=141468632" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/gd-roll.jpg?crc=19425614" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/re-roll.jpg?crc=30173910" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/ab-roll.jpg?crc=4238443692" alt="" src="images/blank.gif?crc=4208392903"/>
+   <div class="clearfix grpelem" id="pu31160"><!-- column -->
+    <div class="size_fixed colelem" id="u31160"><!-- custom html -->
+     
+    <iframe class="actAsDiv" style="width:100%;height:100%;" src="//player.vimeo.com/video/372743520?title=1&amp;byline=0&amp;portrait=0&amp;color=FFFFFF&amp;autoplay=0&amp;loop=0&amp;wmode=transparent" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+    </div>
+    <div class="pointer_cursor museBGSize clearfix colelem" id="u31157"><!-- column -->
+     <a class="block" href="guanyu.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext museBGSize colelem" id="u31162" href="guanyu.html"><!-- simple frame --></a>
+     <a class="nonblock nontext clearfix colelem" id="u31156-4" href="guanyu.html"><!-- content --><p>关于我</p></a>
+    </div>
    </div>
+   <a class="nonblock nontext MuseLinkActive clearfix" id="u30267-4" href="zhuye.html"><!-- content --><p>雷星雨</p></a>
+   <div class="pointer_cursor museBGSize clearfix grpelem" id="u31158"><!-- column -->
+    <a class="block" href="yanjiu.html"><!-- Block link tag --></a>
+    <a class="nonblock nontext museBGSize colelem" id="u31168" href="yanjiu.html"><!-- simple frame --></a>
+    <a class="nonblock nontext clearfix colelem" id="u31159-4" href="yanjiu.html"><!-- content --><p>论文研究</p></a>
+   </div>
+   <nav class="MenuBar clearfix" id="menuu30268"><!-- horizontal box -->
+    <div class="MenuItemContainer clearfix grpelem" id="u30276"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u30277" href="zhuye.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30280-4"><!-- content --><p>主页</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix grpelem" id="u30283"><!-- vertical box -->
+     <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u30284"><!-- horizontal box -->
+      <div class="MenuItemLabel NoWrap clearfix grpelem" id="u30285-4"><!-- content -->
+       <p>作品</p>
+      </div>
+     </div>
+     <div class="SubMenu MenuLevel1 clearfix" id="u30288"><!-- vertical box -->
+      <ul class="SubMenuView clearfix colelem" id="u30289"><!-- vertical box -->
+       <li class="MenuItemContainer clearfix colelem" id="u30304"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30307" href="gongju.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30310-4"><!-- content --><p>工具+绑定</p></div></a></li>
+       <li class="MenuItemContainer clearfix colelem" id="u30290"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30293" href="youxi.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30295-4"><!-- content --><p>游戏开发</p></div></a></li>
+       <li class="MenuItemContainer clearfix colelem" id="u30297"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u30298" href="yanjiu.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30301-4"><!-- content --><p>研究论文</p></div></a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="MenuItemContainer clearfix grpelem" id="u30269"><!-- vertical box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u30270" href="guanyu.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u30272-4"><!-- content --><p>关于我</p></div></a>
+    </div>
+   </nav>
+   <div class="clearfix grpelem" id="pu31166"><!-- column -->
+    <div class="pointer_cursor clearfix colelem" id="u31166"><!-- column -->
+     <a class="block" href="gongju.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext museBGSize colelem" id="u31164" href="gongju.html"><!-- simple frame --></a>
+     <a class="nonblock nontext clearfix colelem" id="u31161-4" href="gongju.html"><!-- content --><p>工具 + 绑定</p></a>
+    </div>
+    <div class="pointer_cursor clearfix colelem" id="u31167"><!-- column -->
+     <a class="block" href="youxi.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext museBGSize colelem" id="u31163" href="youxi.html"><!-- simple frame --></a>
+     <a class="nonblock nontext clearfix colelem" id="u31165-4" href="youxi.html"><!-- content --><p>游戏开发</p></a>
+    </div>
+   </div>
+   <a class="nonblock nontext MuseLinkActive" id="u31492" href="zhuye.html"><!-- state-based BG images --></a>
+   <a class="nonblock nontext" id="u31493" href="index.html"><!-- state-based BG images --></a>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/ab-roll.jpg?crc=4238443692" alt=""/>
+   <img class="preload" src="images/re-roll.jpg?crc=30173910" alt=""/>
+   <img class="preload" src="images/tr-roll.jpg?crc=141468632" alt=""/>
+   <img class="preload" src="images/gd-roll.jpg?crc=19425614" alt=""/>
+   <img class="preload" src="images/icons8-china-96-u31492-r.png?crc=170969316" alt=""/>
+   <img class="preload" src="images/icons8-usa-96-u31493-r.png?crc=4191802412" alt=""/>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -169,15 +125,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu","webpro","musewpdisclosure","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#accordionu30257', ['#bp_420'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu30257 */
-$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
+Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
