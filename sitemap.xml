@@ -22,11 +22,18 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/youxi.html"/>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/yanjiu.html</loc>
+    <loc>http://www.xingyulei.website/game.html</loc>
     <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/yanjiu.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/game.html"/>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/about.html</loc>
+    <lastmod>2020-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/about.html"/>
   </url>
   <url>
     <loc>http://www.xingyulei.website/research.html</loc>
@@ -50,18 +57,11 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/thesis.html"/>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/zhuye.html</loc>
+    <loc>http://www.xingyulei.website/yanjiu.html</loc>
     <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/zhuye.html"/>
-  </url>
-  <url>
-    <loc>http://www.xingyulei.website/guanyu.html</loc>
-    <lastmod>2020-07-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/guanyu.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/yanjiu.html"/>
   </url>
   <url>
     <loc>http://www.xingyulei.website/tool.html</loc>
@@ -71,21 +71,27 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/tool.html"/>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/game.html</loc>
+    <loc>http://www.xingyulei.website/guanyu.html</loc>
     <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/game.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/guanyu.html"/>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/about.html</loc>
+    <loc>http://www.xingyulei.website/zhuye.html</loc>
     <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/about.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://www.xingyulei.website/phone/zhuye.html"/>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/images/self.png</loc>
+    <loc>http://www.xingyulei.website/assets/xingyu_lei_resume_2020cn.pdf</loc>
+    <lastmod>2020-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.xingyulei.website/assets/xingyulei_resume_2020.pdf</loc>
     <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -97,8 +103,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.xingyulei.website/assets/xingyulei_resume_2020.pdf</loc>
-    <lastmod>2020-07-25</lastmod>
+    <loc>http://www.xingyulei.website/images/self.png</loc>
+    <lastmod>2020-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
