@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1599421747067">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.xingyulei.website" resolutions="1x" timestamp="1609646912286">
   <folder name="phone">
     <folder name="css">
       <file name="master_cn-master.css" crc="3901810306" ref="phone>gongju:phone>zhuye:phone>yanjiu:phone>guanyu:phone>youxi"/>
@@ -30,18 +30,18 @@
     <file name="guanyu.html" crc="3870827415" seo="true" mt="1596414129902" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="11580411"/>
+    <file name="site_global.css" crc="530869017"/>
     <file name="research.css" crc="3941504470" ref="research"/>
     <file name="index.css" crc="3768508178" ref="index"/>
-    <file name="master_en-master.css" crc="4060104771" ref="index:research:thesis:about:game:tool"/>
-    <file name="thesis.css" crc="4261133242" ref="thesis"/>
-    <file name="master_cn-master.css" crc="519566335" ref="yanjiu:youxi:zhuye:gongju:guanyu"/>
+    <file name="master_en-master.css" crc="205551872" ref="index:research:thesis:about:game:tool"/>
+    <file name="thesis.css" crc="3921860081" ref="thesis"/>
+    <file name="master_cn-master.css" crc="4291881164" ref="yanjiu:youxi:zhuye:gongju:guanyu"/>
     <file name="yanjiu.css" crc="3966924628" ref="yanjiu"/>
     <file name="youxi.css" crc="298298694" ref="youxi"/>
     <file name="zhuye.css" crc="268909820" ref="zhuye"/>
     <file name="gongju.css" crc="3856055385" ref="gongju"/>
-    <file name="guanyu.css" crc="82027271" ref="guanyu"/>
-    <file name="about.css" crc="3790269850" ref="about"/>
+    <file name="guanyu.css" crc="383215821" ref="guanyu"/>
+    <file name="about.css" crc="3954662837" ref="about"/>
     <file name="game.css" crc="164201225" ref="game"/>
     <file name="tool.css" crc="3854930660" ref="tool"/>
   </folder>
@@ -67,8 +67,8 @@
     <file name="touchswipe.js" crc="404375771" ref="phone>index:phone>tool:phone>game:phone>research:phone>pedagogical:phone>thesis:phone>about:phone>zhuye:phone>gongju:phone>youxi:phone>yanjiu:phone>guanyu"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4229974674" ref="phone>index"/>
-    <file name="lh_2x.png" crc="245134159" ref="index:youxi:phone>index:phone>zhuye:about:yanjiu"/>
+    <file name="favicon.ico" crc="4220510556" ref="phone>index:index"/>
+    <file name="lh_2x.png" crc="245134159" ref="phone>index:phone>zhuye"/>
     <file name="self.png" crc="3825240324" seo="true" ref="guanyu:about"/>
     <file name="self133x122.png" crc="487406671" seo="true" ref="phone>about"/>
     <file name="ab.jpg" crc="4271530839" ref="phone>index:phone>zhuye"/>
@@ -112,16 +112,17 @@
     <file name="icons8-linkedin-192.png" crc="416033169" ref="about:guanyu"/>
     <file name="xingyulei_resume_2020.jpg" crc="392008179" ref="about"/>
     <file name="xingyu_lei_resume_cn.jpg" crc="40243041" ref="guanyu"/>
+    <file name="logo-500.png" crc="3859266324" ref="index:youxi"/>
   </folder>
-  <file name="index.html" crc="4031867939" seo="true" mt="1596412568110" redirect="true"/>
-  <file name="research.html" crc="3793625704" seo="true" mt="1599421713227" redirect="true"/>
-  <file name="thesis.html" crc="3957299470" seo="true" mt="1595876165875" redirect="true"/>
-  <file name="gongju.html" crc="22421728" seo="true" mt="1596413374538" redirect="true"/>
-  <file name="youxi.html" crc="3856048611" seo="true" mt="1595876136679" redirect="true"/>
-  <file name="yanjiu.html" crc="4169362797" seo="true" mt="1599421686234" redirect="true"/>
-  <file name="guanyu.html" crc="3820984989" seo="true" mt="1599420793689" redirect="true"/>
-  <file name="zhuye.html" crc="342224979" seo="true" mt="1596412679770" redirect="true"/>
-  <file name="about.html" crc="4161207914" seo="true" mt="1599420794884" redirect="true"/>
-  <file name="game.html" crc="260853217" seo="true" mt="1595876165875" redirect="true"/>
-  <file name="tool.html" crc="3912475802" seo="true" mt="1596413366547" redirect="true"/>
+  <file name="index.html" crc="4231915703" seo="true" mt="1609646908826" redirect="true"/>
+  <file name="research.html" crc="3770225446" seo="true" mt="1609646908826" redirect="true"/>
+  <file name="thesis.html" crc="360352622" seo="true" mt="1609646908826" redirect="true"/>
+  <file name="gongju.html" crc="4086712601" seo="true" mt="1609646908824" redirect="true"/>
+  <file name="youxi.html" crc="4116619539" seo="true" mt="1609646908824" redirect="true"/>
+  <file name="yanjiu.html" crc="4103249060" seo="true" mt="1609646908824" redirect="true"/>
+  <file name="guanyu.html" crc="4237834264" seo="true" mt="1609646908824" redirect="true"/>
+  <file name="zhuye.html" crc="4087890420" seo="true" mt="1609646908824" redirect="true"/>
+  <file name="about.html" crc="3977576809" seo="true" mt="1609646908826" redirect="true"/>
+  <file name="game.html" crc="4034630085" seo="true" mt="1609646908826" redirect="true"/>
+  <file name="tool.html" crc="180751164" seo="true" mt="1609646908826" redirect="true"/>
 </manifest>

@@ -16,16 +16,16 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "require.js", "thesis.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "require.js", "thesis.css"], "outOfDate":[]};
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="http://www.xingyulei.website/phone/thesis.html"/>
-  <link rel="shortcut icon" href="images/favicon.ico?crc=4229974674"/>
+  <link rel="shortcut icon" href="images/favicon.ico?crc=4220510556"/>
   <title>thesis</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=530869017"/>
-  <link rel="stylesheet" type="text/css" href="css/master_en-master.css?crc=143599572"/>
-  <link rel="stylesheet" type="text/css" href="css/thesis.css?crc=4261133242" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_en-master.css?crc=205551872"/>
+  <link rel="stylesheet" type="text/css" href="css/thesis.css?crc=3921860081" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -82,29 +82,21 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <iframe class="actAsDiv" style="width:100%;height:100%;" src="//www.youtube.com/embed/WIydptHK6-8?autoplay=0&loop=0&showinfo=0&theme=light&color=white&controls=1&modestbranding=1&start=0&fs=1&iv_load_policy=3&wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
 
     </div>
-    <div class="clearfix colelem" id="u30245-38"><!-- content -->
-     <p id="u30245-2">A COMPARISON BETWEEN DIFFERENT INTERPOLATION METHODS FOR CHARACTER UPPER BODY ANIMATION</p>
-     <p id="u30245-4">by</p>
-     <p id="u30245-6">Xingyu Lei</p>
-     <p id="u30245-7">&nbsp;</p>
-     <p id="u30245-9">A Thesis</p>
-     <p id="u30245-11">Submitted to the Faculty of Purdue University</p>
-     <p id="u30245-13">In Partial Fulfillment of the Requirements for the degree of</p>
-     <p id="u30245-14">&nbsp;</p>
-     <p id="u30245-16">Master of Science</p>
-     <p id="u30245-18">Department of Computer Graphics Technology</p>
-     <p id="u30245-20">West Lafayette, Indiana</p>
-     <p id="u30245-22">Fall 2020</p>
-     <p id="u30245-23">&nbsp;</p>
-     <p id="u30245-25">ABSTRACT</p>
-     <p id="u30245-26">&nbsp;</p>
-     <p id="u30245-28">Character animation are not only for games or films anymore, today it is being widely used in many other fields, for instance: virtual learning in education and humanoid motion studies in medical or robotics research. Data-driven methods for animating characters including keyframe editing and motion capture are most commonly used but incapable of real-time generation. Dynamic simulation is fully procedural but is far too complex to implement on a full-body scale and offers limited control. Machine learning proves to be successful in creating accurate and robust movement on synthesizing the character’s lower-body, but not for the upper-body.</p>
-     <p id="u30245-29">&nbsp;</p>
-     <p id="u30245-31">Motion synthesis assembles motion primitives and generates full animation sequence procedurally in real-time. The gap between two motion primitives or keyframes is being filled using different interpolation methods. Interpolation using Euler angles or rotation matrix is intuitive and widely used in animation packages such as Maya. Interpolation using Quaternion is used more in game engines such as Unity due to its fast computation.</p>
-     <p id="u30245-32">&nbsp;</p>
-     <p id="u30245-34">This thesis compares the naturalness of character animation using three common interpolations: Linear Euler interpolation, Spherical Linear Quaternion interpolation and Spherical Spline Quaternion interpolation. The mathematical equations, motion curves and velocity graphs are well studied. This thesis focuses on the perceptional aspect of evaluating these interpolations on upper-body character animation, as upper-body movements are more expressive. Four types of body gestures with corresponding animation will be recorded using motion capture technology and serve as the ground truth. These recordings will then be processed to create the three different interpolation animation stimuli. The three interpolation clips along with the original motion-captured clip is tested in perceptional experiments which ask participants to evaluate how natural the animation looks using three different test methods: Two-Alternative Forced Choice, Yes/No and Rating.</p>
+    <div class="clearfix colelem" id="u30245-24"><!-- content -->
+     <p id="u30245-2">A COMPARISON OF INTERPOLATION METHODS FOR VIRTUAL CHARACTER UPPER BODY ANIMATION</p>
+     <p id="u30245-3">&nbsp;</p>
+     <p id="u30245-5">Xingyu Lei</p>
+     <p id="u30245-6">&nbsp;</p>
+     <p id="u30245-8">ABSTRACT</p>
+     <p id="u30245-9">&nbsp;</p>
+     <p id="u30245-11">The realistic animation of virtual characters can enhance user experience. Motion-editing methods such as keyframing and motion capture are effective for pre-determined animations but are incapable of real-time generation. Algorithm-based dynamic simulation and machine learning-based motion synthesis are procedural but too complex. This thesis explores an approach known as animation interpolation, which benefits from the strengths of both types of methods. Animation interpolation generates full animation sequences by assembling pre-defined motion primitives or key poses in real-time.</p>
+     <p id="u30245-12">&nbsp;</p>
+     <p id="u30245-14">The purpose of this thesis is to evaluate the naturalness of character animation in three common interpolation methods: linear Euler interpolation, spherical linear quaternion interpolation, and spherical spline quaternion interpolation. Many researchers have studied the mathematical equations, motion curves, and velocity graphs of these algorithms. This thesis focuses on the perceptual evaluation and the implementation of expressive upper body character animation.</p>
+     <p id="u30245-15">&nbsp;</p>
+     <p id="u30245-17">During the experimental studies, 97 participants watched 12 animation clips of a character performing four different upper body motions using three interpolation methods. The motions were based on McNeill’s classification of body gestures (beat gesture, deictic gesture, iconic gesture, and metaphoric gesture). After viewing each clip, the participants rated the naturalness on a 5-point Likert scale. The results showed that animations generated using spherical spline quaternion interpolation were perceived as significantly more natural than those generated from the other two interpolation methods.</p>
+     <p id="u30245-18">&nbsp;</p>
      <p>&nbsp;</p>
-     <p>&nbsp;</p>
+     <p id="u30245-22"><a class="nonblock" href="https://hammer.figshare.com/articles/thesis/A_COMPARISON_OF_INTERPOLATION_METHODS_FOR_VIRTUAL_CHARACTER_UPPER_BODY_ANIMATION/13341461">Full Paper</a></p>
     </div>
     <div class="browser_width colelem" id="u376-4-bw">
      <div class="clearfix" id="u376-4"><!-- content -->
